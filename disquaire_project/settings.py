@@ -30,7 +30,7 @@ if os.environ.get('ENV') == 'PRODUCTION':
 else:
     DEBUG = True
 
-ALLOWED_HOSTS = ['test_disquaire0001.herokuapp.com']
+ALLOWED_HOSTS = ['diskaire.herokuapp.com']
 
 
 # Application definition
