@@ -26,7 +26,7 @@ class Album(models.Model):
     reference = models.IntegerField('référence', blank=True, null=True)
     created_at = models.DateTimeField('date de création', auto_now_add=True)
     available = models.BooleanField('disponible', default=True)
-    title = models.CharField('titre' ,max_length=200)
+    title = models.CharField('titre', max_length=200)
     picture = models.URLField("URL de l'image",)
     artists = models.ManyToManyField(Artist, related_name='albums', blank=True)
 
